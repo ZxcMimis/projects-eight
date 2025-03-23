@@ -1,0 +1,28 @@
+{
+  "name": "projects-eight",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZxcMimis/projects-eight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZxcMimis/projects-eight/issues"
+  },
+  "homepage": "https://github.com/ZxcMimis/projects-eight#readme",
+  "devDependencies": {
+    "parcel": "^2.14.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
